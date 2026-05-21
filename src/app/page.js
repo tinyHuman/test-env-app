@@ -20,13 +20,3 @@ export default async function Home() {
     );
 }
 
-// export async function getStaticProps() {
-//     const env = new Env()
-//     const res = await fetch(env.get("FUNC_URL"))
-//     let items = await res.json()
-
-//     return {
-//         props: { items },
-//         revalidate: 10,
-//     }
-// }
